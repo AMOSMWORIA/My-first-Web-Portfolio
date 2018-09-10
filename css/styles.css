@@ -22,17 +22,6 @@ h1 {
   }
 
 
-  .test-box {
-    border: 2px solid white;
-    padding: 6px;
-    margin: 20px;
-    background-color: rgb(204, 25, 25);
-    height:40px;
-    width:100px
-  }
-
-
-
   #image{
     background-image: url(12063878_1165629423450398_3284653396831096091_n);
     background-position: right bottom;
