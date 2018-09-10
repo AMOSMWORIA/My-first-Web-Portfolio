@@ -1,0 +1,107 @@
+.highlight{
+    color:white;
+
+}
+h1 {
+    color: blue;
+    text-align: center;
+    padding:20px;
+    background-color:black
+}
+
+  div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+  
+  div.gallery img {
+      width: 100%;
+      height: auto;
+  }
+
+
+  .test-box {
+    border: 2px solid white;
+    padding: 6px;
+    margin: 20px;
+    background-color: rgb(204, 25, 25);
+    height:40px;
+    width:100px
+  }
+
+
+
+  #image{
+    background-image: url(12063878_1165629423450398_3284653396831096091_n);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+
+
+
+.intro {
+    font-style: italic;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.sidebar {
+    width: 30%;
+    float: right;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+footer{
+    padding:10px;
+    color:#ffffff;
+    background-color:#1d7cb8;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: rgb(3, 63, 28);
+        color: white;
+    }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: whitesmoke;
+  }
+  .column {
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
+}
