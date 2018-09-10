@@ -3,11 +3,13 @@
 
 }
 h1 {
-    color: blue;
+    color: rgb(13, 13, 27);
     text-align: center;
-    padding:20px;
-    background-color:black
-}
+    padding:5px;
+    background-color:#1d7cb8;
+    font: 100 50px/1.3'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);}
 
   div.gallery {
       margin: 5px;
@@ -20,17 +22,10 @@ h1 {
       width: 100%;
       height: auto;
   }
-
-
-  #image{
-    background-image: url(12063878_1165629423450398_3284653396831096091_n);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    padding: 15px;
-}
-
-
-
+  body {
+    background:url("https://steamuserimages-a.akamaihd.net/ugc/2434635842564785937/83DDAD8A5001E326097E30A4AD3A47954C3C7E0F/");
+    color:white
+   }
 
 .intro {
     font-style: italic;
@@ -39,7 +34,6 @@ h1 {
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #333;
 }
 
 /* Style the topnav links */
@@ -49,13 +43,15 @@ h1 {
     color: #f2f2f2;
     text-align: right;
     padding: 14px 16px;
-    text-decoration: none;
+    font: 30 20px/1.3'Oleo Script', Helvetica, sans-serif;
+    color: #aaa5a5;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
 
 /* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color:black;
 }
 
 .sidebar {
@@ -71,10 +67,14 @@ h1 {
 
 
 footer{
-    padding:10px;
+    padding:1px;
     color:#ffffff;
     background-color:#1d7cb8;
     text-align: center;
+    margin-top:180px;
+    font: 30 20px/1.3'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }
 
 
